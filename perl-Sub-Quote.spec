@@ -1,14 +1,14 @@
 %define upstream_name    Sub-Quote
-%define upstream_version 2.005000
+%define upstream_version 2.005001
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Defer generation of subroutines until they are first called
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		http://metacpan.org/pod/Sub::Quote
 Source0:	http://search.cpan.org/CPAN/authors/id/H/HA/HAARG/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel

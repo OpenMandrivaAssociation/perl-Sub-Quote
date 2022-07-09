@@ -1,5 +1,5 @@
 %define upstream_name    Sub-Quote
-%define upstream_version 2.005001
+%define upstream_version 2.006006
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}

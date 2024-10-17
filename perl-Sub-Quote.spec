@@ -8,7 +8,7 @@ Release:	2
 Summary:	Defer generation of subroutines until they are first called
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Sub::Quote
+Url:		https://metacpan.org/pod/Sub::Quote
 Source0:	http://search.cpan.org/CPAN/authors/id/H/HA/HAARG/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel

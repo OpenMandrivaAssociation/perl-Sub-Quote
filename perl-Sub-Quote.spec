@@ -1,7 +1,7 @@
 %define upstream_name    Sub-Quote
 
 Name:		perl-%{upstream_name}
-Version:	2.006008
+Version:	2.006009
 Release:	1
 
 Summary:	Defer generation of subroutines until they are first called
@@ -23,7 +23,7 @@ BuildArch:	noarch
 Defer generation of subroutines until they are first called.
 
 %prep
-%autosetup -p1 -n %{upstream_name}-%{version}
+%autosetup -p1 -n Sub-Quote-2.006009
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
